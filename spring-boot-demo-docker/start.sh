@@ -2,7 +2,7 @@
 CONTAINER_NAME=spring-boot-demo-docker
 PORT=9000
 
-docker build -t ${CONTAINER_NAME} .
+docker build -t ${CONTAINER_NAME}:1.0.0-SNAPSHOT .
 
 if [[ $(docker ps -aq --filter name=${CONTAINER_NAME}) ]]; then
     docker rm -f ${CONTAINER_NAME}
