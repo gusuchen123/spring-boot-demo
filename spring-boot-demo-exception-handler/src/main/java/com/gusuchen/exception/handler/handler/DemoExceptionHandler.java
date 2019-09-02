@@ -1,6 +1,7 @@
 package com.gusuchen.exception.handler.handler;
 
 import com.gusuchen.exception.handler.common.ApiResponse;
+import com.gusuchen.exception.handler.controller.TestController;
 import com.gusuchen.exception.handler.exception.JsonException;
 import com.gusuchen.exception.handler.exception.PageException;
 import lombok.extern.slf4j.Slf4j;
@@ -11,11 +12,12 @@ import org.springframework.web.servlet.ModelAndView;
 
 /**
  * 统一的异常处理
+ *
  * @author gusuchen
  * @since 2019-09-01
  */
 @Slf4j
-@ControllerAdvice
+@ControllerAdvice(basePackageClasses = {TestController.class})
 public class DemoExceptionHandler {
 
     private static final String DEFAULT_ERROR_VIEW = "error";

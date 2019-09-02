@@ -5,6 +5,7 @@ import lombok.Getter;
 
 /**
  * json异常
+ *
  * @author gusuchen
  * @since 2019-09-01
  */

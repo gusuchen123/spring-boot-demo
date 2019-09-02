@@ -32,10 +32,11 @@ public class ApiResponse<T> {
 
     /**
      * 构造一个自定义的API返回
-     * @param code     状态码
-     * @param message  返回内容
-     * @param data     返回数据
-     * @param <T>      数据类型
+     *
+     * @param code    状态码
+     * @param message 返回内容
+     * @param data    返回数据
+     * @param <T>     数据类型
      * @return {@link ApiResponse}
      */
     public static <T> ApiResponse<T> of(Integer code, String message, T data) {

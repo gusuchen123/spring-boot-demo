@@ -1,4 +1,4 @@
-package com.gusuchen.exception.handler;
+package com.gusuchen.exception.handler.controller;
 
 import com.gusuchen.exception.handler.common.ApiResponse;
 import com.gusuchen.exception.handler.constant.Status;
@@ -11,6 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 /**
  * 测试 {@link org.springframework.stereotype.Controller}
+ *
  * @author gusuchen
  * @since 2019-09-01
  */
