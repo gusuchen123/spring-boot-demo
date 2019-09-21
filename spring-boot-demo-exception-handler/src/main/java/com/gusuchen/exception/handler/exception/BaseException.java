@@ -1,7 +1,9 @@
 package com.gusuchen.exception.handler.exception;
 
 import com.gusuchen.exception.handler.constant.Status;
-import lombok.*;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.Setter;
 
 /**
  * 异常基类

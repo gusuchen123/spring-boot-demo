@@ -10,6 +10,13 @@
     <modules>
         <module>spring-boot-demo-exception-handler</module>
         <module>spring-boot-demo-docker</module>
+        <module>spring-boot-demo-cache-ehcache</module>
+        <module>spring-boot-demo-cache-redis</module>
+        <module>spring-boot-demo-mq-rabbitmq</module>
+        <module>spring-boot-demo-mq-rocketmq</module>
+        <module>spring-boot-demo-rbac-security</module>
+        <module>start-spring-security</module>
+        <module>spring-security-authentication</module>
     </modules>
     <packaging>pom</packaging>
 
