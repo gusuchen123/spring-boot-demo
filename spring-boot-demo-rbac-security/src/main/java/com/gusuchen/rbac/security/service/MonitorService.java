@@ -51,7 +51,7 @@ public class MonitorService {
         List<String> rows = keys.getRows();
         Long total = keys.getTotal();
 
-        // 根据 redis 中键获取用户名列表
+        // 根据 redis_template 中键获取用户名列表
         List<String> usernameList = rows.stream()
                 .map(s -> StrUtil.subAfter(s, Consts.REDIS_JWT_KEY_PREFIX, true))
                 .collect(Collectors.toList());

@@ -41,7 +41,7 @@ public interface Consts {
     /**
      * 默认当前页码
      */
-    Integer DEFAULT_CURRENt_PAGE = 1;
+    Integer DEFAULT_CURRENT_PAGE = 1;
     /**
      * 默认每页条数
      */

@@ -1,0 +1,15 @@
+server:
+  port: 1993
+
+spring:
+  redis:
+    host: 192.168.2.20
+    port: 6379
+    database: 2
+    timeout: 5000ms
+    jedis:
+      pool:
+        min-idle: 2
+        max-idle: 20
+        max-active: 50
+        max-wait: 3000ms

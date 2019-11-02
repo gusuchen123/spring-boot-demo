@@ -35,7 +35,7 @@ public class RedisTest extends SpringBootDemoCacheRedisApplicationTests {
     private RedisTemplate<String, Serializable> redisTemplate;
 
     /**
-     * 测试 redis 操作
+     * 测试 redis_template 操作
      */
     @Test
     public void get() {

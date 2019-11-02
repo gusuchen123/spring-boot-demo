@@ -14,7 +14,7 @@ import java.io.Serializable;
 
 /**
  * <p>
- * redis 配置
+ * redis_template 配置
  * </p>
  *
  * @author gusuchen

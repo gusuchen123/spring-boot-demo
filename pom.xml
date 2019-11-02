@@ -17,6 +17,13 @@
         <module>spring-boot-demo-rbac-security</module>
         <module>start-spring-security</module>
         <module>spring-security-authentication</module>
+        <module>spring-boot-demo-dubbo-api</module>
+        <module>spring-boot-demo-dubbo-provider</module>
+        <module>spring-boot-demo-dubbo-consumer</module>
+        <module>distribution-redis-lock</module>
+        <module>distribution-redis-lock-2</module>
+        <module>distribution-zookeeper-lock</module>
+        <module>redis-mq-demo</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -35,6 +42,7 @@
         <hutool.version>4.6.4</hutool.version>
         <guava.version>28.0-jre</guava.version>
         <user.agent.version>1.20</user.agent.version>
+        <dockerfile-maven-plugin.version>1.4.12</dockerfile-maven-plugin.version>
     </properties>
 
     <dependencyManagement>
@@ -68,6 +76,11 @@
                 <groupId>eu.bitwalker</groupId>
                 <artifactId>UserAgentUtils</artifactId>
                 <version>${user.agent.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.spotify</groupId>
+                <artifactId>dockerfile-maven-plugin</artifactId>
+                <version>${dockerfile-maven-plugin.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

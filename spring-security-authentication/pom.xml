@@ -9,7 +9,7 @@
     </parent>
 
     <artifactId>authentication</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>${parent.version}</version>
     <name>spring-security-authentication</name>
     <description>Demo project for Spring Boot</description>
 

@@ -7,7 +7,7 @@ import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * redis 缓存测试
+ * redis_template 缓存测试
  *
  * @author gusuchen
  * @since 2019-09-02

@@ -29,7 +29,7 @@ public class PageUtil {
         }
 
         if (ObjectUtil.isNull(condition.getCurrentPage())) {
-            condition.setCurrentPage(Consts.DEFAULT_CURRENt_PAGE);
+            condition.setCurrentPage(Consts.DEFAULT_CURRENT_PAGE);
         }
 
         if (ObjectUtil.isNull(condition.getPageSize())) {
